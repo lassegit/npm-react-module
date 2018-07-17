@@ -9,5 +9,4 @@ export default class CustomReactModule extends Component {
 }
 
 CustomReactModule.propTypes = {};
-
 CustomReactModule.defaultProps = {};

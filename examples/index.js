@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import CustomReactModule from '../src/index';
+import CustomReactModule from '../src/index'
 
 ReactDom.render(
   <div>
