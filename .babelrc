@@ -1,5 +1,5 @@
 {
-  "presets": ["env", "react", "stage-2"],
+  "presets": ["env", "react"],
   "plugins": [
     "add-module-exports"
   ]
