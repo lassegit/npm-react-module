@@ -1,4 +1,4 @@
-Boilerplate for developing ReactJS modules using Babel.
+Boilerplate for developing ReactJS components using Babel ES6, Prettier, Lint.
 
 ## Installation
 
