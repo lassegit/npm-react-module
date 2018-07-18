@@ -11,6 +11,8 @@ Remove the `.git` folder and rename the component in `src/index.js`. Styles resi
 
 - `npm run lint` - lint your code
 
+- `npm run prettier` - prettify your code in src/
+
 - `npm run build` - build `/lib` folder
 
 - `npm publish` - publish your package to npmjs.com. Remember to customize `package.json` to suit your custom module.
