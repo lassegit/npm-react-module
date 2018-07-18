@@ -7,6 +7,7 @@
     "clean": "rimraf lib",
     "dev": "webpack-dev-server --config ./examples/webpack.config.js",
     "lint": "eslint src || exit 0",
+    "prettier": "prettier --config .prettierrc --write src/**/**/*.js",
     "build": "cross-env babel src --out-dir lib",
     "copy": "cp src/style.css lib/",
     "prepublish": "npm run clean && npm run build && npm run copy"
@@ -47,6 +48,7 @@
     "eslint-plugin-jsx-a11y": "^2.2.2",
     "eslint-plugin-react": "^6.3.0",
     "extract-text-webpack-plugin": "^3.0.0",
+    "prettier": "^1.13.7",
     "rimraf": "^2.5.4",
     "style-loader": "^0.18.2",
     "webpack": "^3.10.0",
@@ -55,7 +57,7 @@
   },
   "dependencies": {
     "prop-types": "^15.5.10",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   }
 }
